@@ -1,0 +1,134 @@
+ .body {
+     width: 70%;
+     background: #f5f5f5;
+     margin: auto;
+     border-radius: 16px;
+ }
+
+ .heading {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 8px 0 8px 0;
+     background-color: black;
+     color: white;
+     border-radius: 16px 16px 0 0;
+ }
+
+ .about-me {
+     background-color: black;
+     color: white;
+     padding: 18px 24px 18px 24px;
+     margin: 16px auto 18px auto;
+     width: 700px;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: justify;
+     justify-content: center;
+     align-items: center;
+     border-radius: 16px;
+ }
+
+ .about-me-heading {
+     font-weight: 700;
+     font-size: 22px;
+     margin-bottom: 8px;
+ }
+
+ .about-me-details {
+     line-height: 1.5em;
+ }
+
+ .subheading-1 {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .sub-heading-container {
+     background-color: black;
+     color: white;
+     padding: 12px;
+     margin: auto;
+     border-radius: 16px;
+ }
+
+ .portfolio-container {
+     background-color: white;
+     width: 700px;
+     margin: auto;
+     padding: 8px 24px 8px 24px;
+     border-radius: 16px;
+ }
+
+ .portfolio-heading {
+     font-weight: 700;
+     font-size: 22px;
+     text-align: center;
+ }
+
+ .flex {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin: 0 16px 8px 0;
+ }
+
+ .portfolio-img {
+     width: 150px !important;
+     height: 100px !important;
+     padding: 0 4px 0 4px;
+     display: flex;
+ }
+
+ #icon {
+     margin-right: 4px;
+ }
+
+ .portfolio-item {
+     background-color: #f5f5f5d0;
+     display: flex;
+     align-items: center;
+     margin: 12px 0 12px 0;
+     border: 1px solid #d4caca;
+     border-radius: 16px;
+ }
+
+ .portfolio-details {
+     padding: 8px 12px 8px 12px;
+     text-align: justify;
+     background-color: black;
+     color: white;
+     margin: 8px;
+     border-radius: 16px;
+ }
+
+ .portfolio-details-heading {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 27px;
+ }
+
+ .portfolio-footer {
+     padding: 8px 12px 8px 0;
+     text-align: justify;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+ }
+
+ .site {
+     background-color: white;
+     color: black;
+     padding: 4px 12px 4px 12px;
+     margin-right: 24px;
+     border-radius: 8px;
+     font-weight: 600;
+ }
+
+ #site {
+     color: white;
+ }

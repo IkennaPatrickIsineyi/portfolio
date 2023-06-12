@@ -5,6 +5,12 @@
      border-radius: 16px;
  }
 
+@media (max-width:600):{
+ .body{
+  width:100%
+  }
+ }
+
  .heading {
      display: flex;
      justify-content: center;

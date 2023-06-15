@@ -5,29 +5,26 @@
      border-radius: 16px;
  }
 
-@media (max-width:600):{
- .body{
-  width:100%
-  }
- }
-
  .heading {
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
      align-items: center;
-     padding: 8px 8px 8px 8px;
+     padding: 14px 30px 14px 30px;
      background-color: black;
      color: white;
      border-radius: 16px 16px 0 0;
+     text-align: center;
+
  }
+
 
  .about-me {
      background-color: black;
      color: white;
      padding: 18px 24px 18px 24px;
      margin: 16px auto 18px auto;
-     width: 700px;
+     max-width: 700px;
      display: flex;
      flex-wrap: wrap;
      text-align: justify;
@@ -37,16 +34,22 @@
  }
 
  .about-me-heading {
-  display: flex;
-  align-items: center;
-  justify-content:center;
      font-weight: 700;
      font-size: 22px;
      margin-bottom: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
  }
 
  .about-me-details {
      line-height: 1.5em;
+ }
+
+ .tools {
+     text-align: center;
+     line-height: 30px;
  }
 
  .subheading-1 {
@@ -54,6 +57,9 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: center;
+     font-weight: 500;
+     font-size: 18px;
+     margin-bottom: 12px;
  }
 
  .sub-heading-container {
@@ -66,7 +72,7 @@
 
  .portfolio-container {
      background-color: white;
-     width: 700px;
+     max-width: 700px;
      margin: auto;
      padding: 8px 24px 8px 24px;
      border-radius: 16px;
@@ -84,7 +90,7 @@
      align-items: center;
      justify-content: center;
      margin: 0 16px 8px 0;
-  font-size:18px
+     text-align: center;
  }
 
  .portfolio-img {
@@ -108,22 +114,23 @@
  }
 
  .portfolio-details {
-     padding: 8px 12px 8px 12px;
+     padding: 24px;
      text-align: justify;
      background-color: black;
      color: white;
-     margin: 8px;
+     margin: 14px 0 0 0;
      border-radius: 16px;
+     font-size: 18px;
  }
 
  .portfolio-details-heading {
      font-weight: 700;
      font-size: 18px;
-     line-height: 27px;
+     line-height: 37px;
  }
 
  .portfolio-footer {
-     padding: 8px 12px 8px 0;
+     padding: 20px 12px 8px 0;
      text-align: justify;
      display: flex;
      flex-wrap: wrap;
@@ -137,8 +144,14 @@
      margin-right: 24px;
      border-radius: 8px;
      font-weight: 600;
+     font-size: 16px;
+     display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+
  }
 
  #site {
      color: white;
+     text-decoration: none;
  }
